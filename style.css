@@ -1,0 +1,101 @@
+body{ 
+   
+	margin:0 auto;
+    /* background-color:Silver; */
+}
+
+.dimensions-form{
+    margin: 20vh auto;
+    padding: auto;
+    display: grid;
+    justify-content: space-around;
+    /* justify-items: center; */
+    width: fit-content;
+}
+.customInput {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #555;
+  outline: none;
+  margin: 0 auto;
+}
+
+/* Style for the submit button */
+.customButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the hover effect */
+.customButton:hover {
+  background-color: #0069d9;
+}
+#dimension-submit {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the hover effect */
+#dimension-submit:hover {
+  background-color: #555;
+  color: white;
+}
+
+	h1,h2,h3 {
+color:Maroon;
+}
+
+h1{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(229, 225, 233);
+    margin-top:0;
+    background-color: black;
+    font-size: xx-large;
+}
+a{
+    font-size: x-large;
+    text-align: center;
+    margin-left: 43%;
+    background-color: black;
+
+}
+a:link,a:visited{
+    color:rgb(247, 242, 242);
+    text-decoration:none;
+    background-color: black;
+}
+a:hover{
+    color:rgb(194, 115, 115);
+    background-color: black;
+}
+
+body{
+   background-image: url(./images/grid03.jpeg);
+    
+     background: #333;
+
+}
+title{
+    margin-top: 20%;
+}
+
+/* disbale scrollbar*/
+
+body{
+    overflow: hidden;
+    margin: 10px;
+    /*hide scrollbar for firefox*/
+    
+    scrollbar-width: none;
+}
+

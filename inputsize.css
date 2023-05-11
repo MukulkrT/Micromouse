@@ -1,0 +1,22 @@
+.inputsize {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #555;
+  outline: none;
+  margin: 0 auto;
+}
+
+.dimensions-form{
+    margin: 0 auto;
+    padding: auto;
+    display: grid;
+    justify-content: space-around;
+    /* justify-items: center; */
+    width: fit-content;
+}
+
+#dimension-submit {
+      width: fit-content;
+      margin: auto;
+}
